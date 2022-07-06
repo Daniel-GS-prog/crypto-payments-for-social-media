@@ -19,12 +19,10 @@ const Navbar = () => {
 
       
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
-        {["Contact List", "Send funds", "NFT Workshop"].map((item, index) => (
+        {["About us","Contact us", "Contact List", "Send funds", "NFT Workshop"].map((item, index) => (
           <NavBarItem key={item + index} title={item} />
         ))}
-        <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
-          Login
-        </li>
+        
       </ul>
       
     </nav>

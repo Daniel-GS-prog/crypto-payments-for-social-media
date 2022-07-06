@@ -15,13 +15,13 @@ const Welcome = () => {
             <div className='flex md:flex-row flex-col items-start justify-between md:p-2- py-12 px-4'>
                 <div className='flex flex-1 justify-start flex-col md:mr-10 p-10'>
                     <h1 className='font-serif font-bold text-5xl  decoration-4 text-white py-2 text-center' >
-                        Send cryptocurrencies to<br/> 
-                        your social media contacts <br/>
-                        without leaving the website
+                        A social medial platform where<br/> 
+                         you can send crypto to your friends <br/>
+                        and mint, buy and sell NFT
                         
                     </h1>
                     <p className='text-center font-bold mt-10 mb-5 text-white font-medium md:w-0/12 w-11/12'>
-                        We will soon incorporate an NFT Market Place
+                        Connect, transfer, Create
                     </p>
                     <button 
                     type='button'
